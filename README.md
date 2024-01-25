@@ -16,18 +16,18 @@ Certifique-se de atender aos seguintes requisitos para garantir o funcionamento 
 -Ausência de letras com acentos ou caracteres especiais.
 -Capacidade de converter uma palavra para a versão criptografada e retornar uma palavra criptografada à versão original.
 
-  <h3>Exemplo</h3>
+<h3>Exemplo</h3>
 - "gato" => "gaitober"
 - "gaitober" => "gato"
 
-  <h3>Funcionaliades da Página</h3>
-  A página deve oferecer os seguintes elementos para uma experiência completa:
+<h3>Funcionaliades da Página</h3>
+A página deve oferecer os seguintes elementos para uma experiência completa:
 
 - Campos de entrada para inserção do texto a ser criptografado ou descriptografado.
 - Opção de escolha entre criptografar ou descriptografar.
 - Exibição imediata do resultado na tela.
 
-  <h3>Funcionalidades Extras</h3>
-  Para aprimorar a experiência do usuário, sugerimos a implementação das seguintes funcionalidades extras:
+<h3>Funcionalidades Extras</h3>
+Para aprimorar a experiência do usuário, sugerimos a implementação das seguintes funcionalidades extras:
 
 - Botão que copie o texto criptografado/descriptografado para a área de transferência. Isso proporcionará a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
