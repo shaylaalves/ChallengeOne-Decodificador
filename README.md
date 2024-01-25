@@ -17,8 +17,8 @@ Certifique-se de atender aos seguintes requisitos para garantir o funcionamento 
 -Capacidade de converter uma palavra para a versão criptografada e retornar uma palavra criptografada à versão original.
 
 <h3>Exemplo</h3>
--"gato" => "gaitober"
--"gaitober" => "gato"
+* "gato" => "gaitober"
+* "gaitober" => "gato"
 
 <h3>Funcionaliades da Página</h3>
 A página deve oferecer os seguintes elementos para uma experiência completa:
