@@ -17,7 +17,7 @@ Certifique-se de atender aos seguintes requisitos para garantir o funcionamento 
 - Capacidade de converter uma palavra para a versão criptografada e retornar uma palavra criptografada à versão original.
 
 <h3>Exemplo</h3>
-+  "gato" => "gaitober"
++   "gato" => "gaitober"
 
 +  "gaitober" => "gato"
 
