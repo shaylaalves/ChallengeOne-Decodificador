@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Decodificador de texto</title>
+  </head>
+
+  <body>
+    <div class="linkbar">
+      <nav class="linkbar__navegation">
+        <div class="logo_git">
+          <a href="https://github.com/shaylaalves" target="_blank">
+            <img src="assets/logo_github.svg" alt="Logo do GitHub" />
+          </a>
+        </div>
+
+        <div class="logo_alura">
+          <a href="https://cursos.alura.com.br/user/" target="_blank">
+            <img src="assets/logo_alura.svg" alt="Logo da Alura" />
+          </a>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <section class="content">
+        <div class="content__texto_usuario">
+          <textarea
+            name="text_user"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Digite o seu texto"
+          ></textarea>
+        </div>
+
+        <div class="alerta">
+          <span class="alert"
+            ><img
+              src="assets/exclamation-circle-fill.svg"
+              alt="Icone de exclamação indicando um aviso"
+            />
+            Use apenas letras minúsculas e sem acento.</span
+          >
+        </div>
+        <div class="botoes">
+          <button
+            onclick="criptografarMensagem()"
+            id="btn-cripto"
+            class="criptografar"
+          >
+            Criptografar
+          </button>
+
+          <button onclick="descriptografarMensagem()" class="descriptografar">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section class="saida">
+        <div class="console">
+          <div class="output" id="output"></div>
+
+          <div class="inicio" id="msgConsoleInicio">
+            <img
+              src="assets/no_text.svg"
+              alt="Figura de um homem procurando algo com uma lupa-"
+            />
+            <p class="nenhumaMensagem">Nenhuma mensagem encontrada</p>
+            <p class="digiteOTexto">
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="desenvolvedor">
+        <p>Desenvolvido por Shayla Alves, 2024</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
