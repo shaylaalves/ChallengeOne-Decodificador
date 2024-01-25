@@ -13,8 +13,8 @@ As chaves de criptografia adotadas são simples, mas eficazes, transformando as 
 Certifique-se de atender aos seguintes requisitos para garantir o funcionamento adequado da aplicação:
 
 -Funcionamento exclusivo com letras minúsculas.
-- Ausência de letras com acentos ou caracteres especiais.
-- Capacidade de converter uma palavra para a versão criptografada e retornar uma palavra criptografada à versão original.
+-Ausência de letras com acentos ou caracteres especiais.
+-Capacidade de converter uma palavra para a versão criptografada e retornar uma palavra criptografada à versão original.
 
   <h3>Exemplo</h3>
 - "gato" => "gaitober"
